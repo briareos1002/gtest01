@@ -44,11 +44,11 @@
   ~~~
 
 * __breaking change__  
-  * change of the definition of a schema specifier  
+  change of the definition of a schema specifier  
     before : $name(key1,key2,...)  
     now    : @schema name(key1,key2,...)  
     this makes it different from variables  
-  * change of the use of a schema specifier  
+  change of the use of a schema specifier  
     before : , $name  
     now    : , @schema name
   
@@ -58,8 +58,8 @@
   
 * __feature__  
   for a reference (e.g. ref)
-  * @merge *ref    : in a hash  
-  * @insert *ref   : in an array
+  @merge *ref    : in a hash  
+  @insert *ref   : in an array
 
 * __feature__  
   supporting references, definition: &ref, use: *ref  
