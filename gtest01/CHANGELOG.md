@@ -57,7 +57,7 @@
   exception is a beginning string interpolation: $(var)
   
 * __feature__  
-  for a reference (e.g. ref)  
+  for a reference (e.g. ref)
   * @merge *ref    : in a hash  
   * @insert *ref   : in an array
 
